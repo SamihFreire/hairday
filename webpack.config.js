@@ -23,6 +23,16 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             template: path.resolve(__dirname, "index.html"),
+            favicon: path.resolve("src", "assets", "scissors.svg"),
         }),
     ],
+
+    module: {
+        rules: [
+            {
+                test: /\.css$/,
+                use:["style-loader", "css-loader"], //Quando for arquivo css vai carregar e injetar o css na aplicação
+            },
+        ],
+    },
 }
