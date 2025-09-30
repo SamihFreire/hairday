@@ -30,9 +30,9 @@ Seu propósito é oferecer uma plataforma moderna, prática e responsiva para pr
 
 ### 🛠 Ferramentas utilizadas
 
-- **Babel**: Transforma código moderno em uma versão compatível com todos os navegadores.
-- **JSON Server**: Cria uma API falsa para testes e desenvolvimento rápido.
-- **Webpack**: Organiza e otimiza os arquivos do projeto, incluindo JS, CSS e imagens, deixando a aplicação pronta para desenvolvimento e produção.
+- **Babel**: Compatibiliza o código moderno para rodar em todos os navegadores.
+- **JSON Server**: Simula uma API local para testes rápidos.
+- **Webpack**: Gerencia e otimiza os arquivos do projeto, tornando o fluxo de desenvolvimento mais ágil.
 
 <h3>Sistema responsivo</h3>
 <div style="display: flex;">
